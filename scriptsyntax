@@ -1,0 +1,22 @@
+
+#linux  comparisin operators:
+
+#String 
+
+>> == (equal)
+>> != (not equal)
+>> 
+
+#Numeric Comparison:
+
+-eq
+-nq
+-lt
+-gt
+-le
+-ge
+
+-d --> To find directory
+-f --> To find file
+
+
