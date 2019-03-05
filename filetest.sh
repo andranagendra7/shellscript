@@ -3,7 +3,7 @@ path="/etc/yum.repos.d/jenkins.repo"
 file="/etc/init.d/jenkins"
 if [ -e $path ] && [ -e $file ];
 then
-    echo "exist"
+    echo "jenkins installed already"
 else
     #echo "not exist"
     echo "creating the jenkis repos file"
@@ -17,6 +17,7 @@ else
     then  
           echo "Now, we are  installing the jenkins"
           rpm -ivh $filename
+          rm -fr $filename
           echo "jenkins installed successfuly"
     fi
 fi
