@@ -1,7 +1,7 @@
 #!/bin/ba nsh
 path="/etc/yum.repos.d/jenkins.repo"
 file="/etc/init.d/jenkins"
-if [ -e $path && $file];
+if [ -e $path ] && [ -e $file ];
 then
     echo "exist"
 else
