@@ -1,6 +1,6 @@
 if ["java -version"== true]; 
 then
- echo "directory exists"
+ echo "java installed"
 else
- echo "not exist"
+ echo "java not exist"
 fi
